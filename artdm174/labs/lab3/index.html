@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Lab 3</title>
+</head>
+<body id="day" class="day">
+
+    <h1>Fly the Helicopter</h1>
+    <p>Click left mouse to move helicopter</p>
+
+    <section class="mousecoords">
+        <p>
+            X: <span id="x-value"></span>
+            Y: <span id="y-value"></span>
+        </p>
+    </section>
+
+    <button class="btn" onclick="changeNight('images/nightbackground.jpg')">Night</button>
+    <button class="btn" onclick="changeDay('images/daybackground.jpg')">Day</button>
+
+    <img id="helicopter" class="helicopterimg" src="images/helicopter.png" alt="">
+
+
+</body>
+    <script src="scripts/main.js"></script>
+</html>
