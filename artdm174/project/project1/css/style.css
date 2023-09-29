@@ -1,0 +1,158 @@
+
+body {
+    margin: 0 10% 0 10%;
+}
+
+/*Titles and Text*/
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 30pt;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+h2 {
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 20pt;
+    text-decoration: underline 2px black;
+}
+
+.text {
+    font-family: 'Comfortaa', cursive;
+    padding: 0px 3px 0px 3px;
+}
+
+.aboutmetext {
+    font-family: 'Comfortaa', cursive;
+    margin: 0% 25% 0% 25%;
+    text-indent: 15px;
+
+}
+
+/*Grid*/
+
+.labgrid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.labgrid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.projectgrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+.githubgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+/*Nav*/
+
+button {
+    color: white;
+    cursor: pointer;
+    padding: 0;
+    border: 0;
+    background: none;
+    box-shadow: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    
+}
+
+a:any-link {
+    color: white;
+}
+
+/*Boxes*/
+
+.labbox {
+    background-color: rgb(115, 84, 229);
+    height: 150px;
+    width: 150px;
+}
+
+.projectbox {
+    background-color: rgb(35, 57, 155);
+    height: 150px;
+    width: 150px
+}
+
+.githubbox {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/*Animations(waiting for js)*/
+
+/*
+.labbox:hover {
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+
+@keyframes labbox {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+    0% {
+        transform: rotateY(0deg);
+    }
+}
+*/
+
+@media only screen and (max-width : 475px) {
+
+    .labgrid1 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0% 29% 0% 29%;
+    }
+
+    .labgrid2 {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0% 29% 0% 29%;
+    }
+
+    .projectgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 0% 29% 0% 29%;
+    }
+
+
+}
