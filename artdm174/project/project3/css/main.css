@@ -1,0 +1,78 @@
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+/*Text*/
+
+h1 {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 30pt;
+    text-align: center;
+}
+
+/*Boxes/Containers*/
+
+.videoPlayer {
+    width: 50%;
+    height: 50%;
+    border: 3px solid black;
+    border-radius: 12px;
+}
+
+.videoContainer {
+    text-align: center;
+}
+
+/*Buttons*/
+
+button {
+    font-family: 'Tilt Neon', sans-serif;
+    font-size: 10pt;
+    background-color: #089eef;
+    color: white;
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 1.5px;
+}
+
+button:active {
+    background-color: #d43cc0;
+    box-shadow: 0 2px #666;
+    transform: translateY(1px);
+  }
+
+.intbuttons {
+    width: 14%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.playbackbuttons {
+    width: 19%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.startendbuttons {
+    width: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.playBtnSize {
+    width: 48px;
+}
